@@ -1,2 +1,6 @@
-package sellers;public interface Profitable {
+package sellers;
+
+public interface Profitable {
+
+    double getProfit ();
 }

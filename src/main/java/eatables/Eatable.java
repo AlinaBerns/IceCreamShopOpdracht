@@ -1,2 +1,7 @@
-package eatables;public interface Eatable {
+package eatables;
+
+public interface Eatable {
+
+    void eat ();
+
 }
