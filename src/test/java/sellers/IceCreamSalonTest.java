@@ -56,4 +56,13 @@ class IceCreamSalonTest {
         System.out.println(test);
         assertEquals(a, test);
     }
+
+    @DisplayName(value = "Method toString is correct")
+    @Test
+    void shouldReturnEqualsIfMethodToStringIsCorrect() {
+        String example = "IceCreamSalon{Prijslijst{ballPrice=4.0, rocketPrice=4.0, magnumStandartPrice=4.0}, totalProfit=0.0}";
+        String actual = iceCreamSalon.toString();
+
+        assertEquals(actual, example);
+    }
 }
