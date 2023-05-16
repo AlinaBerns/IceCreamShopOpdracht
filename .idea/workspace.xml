@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="150bb42f-a65f-4dd5-915c-1fe91937364b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/sellers/IceCreamCarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sellers/IceCreamSalonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sellers/IceCreamSellerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sellers/PriceListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sellers/ProfitableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sellers/StockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/IceCreamApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/IceCreamApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sellers/IceCreamCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sellers/IceCreamCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/eatables/MagnumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/eatables/MagnumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sellers/IceCreamSalonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sellers/IceCreamSalonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sellers/PriceListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sellers/PriceListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sellers/ProfitableTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sellers/StockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sellers/StockTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,15 +49,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -64,6 +66,96 @@
       <recent name="sellers" />
       <recent name="eatables" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.IceCreamSalonTest.shouldReturnEqualsIfOrderMagnumWorksWithGetProfit">
+    <configuration name="IceCreamSalonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IceCreamShopOpdracht" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sellers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sellers" />
+      <option name="MAIN_CLASS_NAME" value="sellers.IceCreamSalonTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IceCreamSalonTest.shouldReturnEqualsIfIceRocketWorksWithGetProfit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IceCreamShopOpdracht" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sellers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sellers" />
+      <option name="MAIN_CLASS_NAME" value="sellers.IceCreamSalonTest" />
+      <option name="METHOD_NAME" value="shouldReturnEqualsIfIceRocketWorksWithGetProfit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IceCreamSalonTest.shouldReturnEqualsIfOrderConeWorksWithGetProfit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IceCreamShopOpdracht" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sellers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sellers" />
+      <option name="MAIN_CLASS_NAME" value="sellers.IceCreamSalonTest" />
+      <option name="METHOD_NAME" value="shouldReturnEqualsIfOrderConeWorksWithGetProfit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IceCreamSalonTest.shouldReturnEqualsIfOrderMagnumWorksWithGetProfit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IceCreamShopOpdracht" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sellers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sellers" />
+      <option name="MAIN_CLASS_NAME" value="sellers.IceCreamSalonTest" />
+      <option name="METHOD_NAME" value="shouldReturnEqualsIfOrderMagnumWorksWithGetProfit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IceCreamSalonTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IceCreamShopOpdracht" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sellers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sellers" />
+      <option name="MAIN_CLASS_NAME" value="sellers.IceCreamSalonTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.IceCreamSalonTest.shouldReturnEqualsIfOrderMagnumWorksWithGetProfit" />
+        <item itemvalue="JUnit.IceCreamSalonTest" />
+        <item itemvalue="JUnit.IceCreamSalonTest.shouldReturnEqualsIfIceRocketWorksWithGetProfit" />
+        <item itemvalue="JUnit.IceCreamSalonTest.shouldReturnEqualsIfOrderConeWorksWithGetProfit" />
+        <item itemvalue="JUnit.IceCreamSalonTest.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -75,5 +167,34 @@
       <updated>1684157517334</updated>
     </task>
     <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/IceCreamShopOpdracht$IceCreamSalonTest_shouldReturnEqualsIfOrderMagnumWorksWithGetProfit.ic" NAME="IceCreamSalonTest.shouldReturnEqualsIfOrderMagnumWorksWithGetProfit Coverage Results" MODIFIED="1684242801470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>sellers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShopOpdracht$PriceListTest.ic" NAME="PriceListTest Coverage Results" MODIFIED="1684240358692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>sellers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShopOpdracht$StockTest.ic" NAME="StockTest Coverage Results" MODIFIED="1684240383172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>sellers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShopOpdracht$IceCreamSalonTest.ic" NAME="IceCreamSalonTest Coverage Results" MODIFIED="1684242551100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>sellers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShopOpdracht$EatableTest.ic" NAME="EatableTest Coverage Results" MODIFIED="1684240285898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>eatables.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShopOpdracht$MagnumTest.ic" NAME="MagnumTest Coverage Results" MODIFIED="1684240331410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>eatables.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShopOpdracht$MagnumTest_printResultIfMethodEatWorksCorrect.ic" NAME="MagnumTest.printResultIfMethodEatWorksCorrect Coverage Results" MODIFIED="1684233700596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>eatables.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShopOpdracht$IceRocketTest.ic" NAME="IceRocketTest Coverage Results" MODIFIED="1684240308026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>eatables.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShopOpdracht$ConeTest.ic" NAME="ConeTest Coverage Results" MODIFIED="1684240249743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>eatables.*</FILTER>
+    </SUITE>
   </component>
 </project>

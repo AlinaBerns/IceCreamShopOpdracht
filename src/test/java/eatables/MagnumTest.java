@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MagnumTest {
+    private Magnum magnum;
     private Magnum magnumType;
 
     @BeforeEach
@@ -35,7 +36,5 @@ class MagnumTest {
     void shouldReturnNotNullIfConstructorIsNotNull() {
         magnumType = new Magnum(Magnum.MagnumType.ROMANTICSTRAWBERRIES);
         assertNotNull(magnumType, "Constructor is null");
-
     }
-
 }

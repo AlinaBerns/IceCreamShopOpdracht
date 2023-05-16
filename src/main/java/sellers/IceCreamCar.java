@@ -4,10 +4,6 @@ import eatables.Cone;
 import eatables.IceRocket;
 import eatables.Magnum;
 
-import java.util.Locale;
-import java.util.Optional;
-import java.util.Scanner;
-
 public class IceCreamCar implements IceCreamSeller {
     private PriceList pricelist;
     private double profit;

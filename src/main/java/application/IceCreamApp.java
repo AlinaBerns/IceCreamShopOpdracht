@@ -40,8 +40,6 @@ public class IceCreamApp {
 
         System.out.println("\n***PROFIT: " + seller.getProfit() + "***");
 
-
-
     }
 
 }
