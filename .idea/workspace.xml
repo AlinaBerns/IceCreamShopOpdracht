@@ -7,6 +7,7 @@
     <list default="true" id="150bb42f-a65f-4dd5-915c-1fe91937364b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/sellers/IceCreamSalonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sellers/IceCreamSalonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sellers/IceCreamSellerTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,7 @@
       <recent name="eatables" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IceCreamSalonTest.shouldReturnEqualsIfMethodToStringIsCorrect">
+  <component name="RunManager" selected="JUnit.IceCreamSalonTest.shouldReturnNotNullIfPriceIsNotZeroEndOrderMethodsWorks">
     <configuration name="IceCreamSalonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IceCreamShopOpdracht" />
       <extension name="coverage">
@@ -77,7 +78,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IceCreamSalonTest.shouldReturnEqualsIfIceRocketWorksWithGetProfit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IceCreamSalonTest.shouldReturnEqualIfProfitIsZeroWhenPriceIsZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IceCreamShopOpdracht" />
       <extension name="coverage">
         <pattern>
@@ -87,7 +88,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="sellers" />
       <option name="MAIN_CLASS_NAME" value="sellers.IceCreamSalonTest" />
-      <option name="METHOD_NAME" value="shouldReturnEqualsIfIceRocketWorksWithGetProfit" />
+      <option name="METHOD_NAME" value="shouldReturnEqualIfProfitIsZeroWhenPriceIsZero" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,22 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IceCreamSalonTest.shouldReturnEqualsIfOrderConeWorksWithGetProfit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IceCreamShopOpdracht" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sellers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sellers" />
-      <option name="MAIN_CLASS_NAME" value="sellers.IceCreamSalonTest" />
-      <option name="METHOD_NAME" value="shouldReturnEqualsIfOrderConeWorksWithGetProfit" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="IceCreamSalonTest.shouldReturnEqualsIfOrderMagnumWorksWithGetProfit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IceCreamShopOpdracht" />
       <extension name="coverage">
@@ -141,13 +126,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IceCreamSalonTest.shouldReturnNotNullIfPriceIsNotZeroEndOrderMethodsWorks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IceCreamShopOpdracht" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sellers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sellers" />
+      <option name="MAIN_CLASS_NAME" value="sellers.IceCreamSalonTest" />
+      <option name="METHOD_NAME" value="shouldReturnNotNullIfPriceIsNotZeroEndOrderMethodsWorks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IceCreamSalonTest.shouldReturnNotNullIfPriceIsNotZeroEndOrderMethodsWorks" />
+        <item itemvalue="JUnit.IceCreamSalonTest.shouldReturnEqualIfProfitIsZeroWhenPriceIsZero" />
         <item itemvalue="JUnit.IceCreamSalonTest.shouldReturnEqualsIfMethodToStringIsCorrect" />
         <item itemvalue="JUnit.IceCreamSalonTest.shouldReturnEqualsIfOrderMagnumWorksWithGetProfit" />
         <item itemvalue="JUnit.IceCreamSalonTest" />
-        <item itemvalue="JUnit.IceCreamSalonTest.shouldReturnEqualsIfIceRocketWorksWithGetProfit" />
-        <item itemvalue="JUnit.IceCreamSalonTest.shouldReturnEqualsIfOrderConeWorksWithGetProfit" />
       </list>
     </recent_temporary>
   </component>

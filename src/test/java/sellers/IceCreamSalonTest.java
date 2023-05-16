@@ -65,4 +65,34 @@ class IceCreamSalonTest {
 
         assertEquals(actual, example);
     }
+
+    @DisplayName(value = "Return Equals if Profit = 0, when price = 0")
+    @Test
+    void shouldReturnEqualIfProfitIsZeroWhenPriceIsZero() {
+        IceCreamSalon iceCreamSalon1 = new IceCreamSalon
+                (new PriceList(0,0,0));
+
+        iceCreamSalon1.orderMagnum(Magnum.MagnumType.WHITECHOCOLATE);
+        iceCreamSalon1.orderCone(new Cone.Flavor[]{Cone.Flavor.BANANA, Cone.Flavor.VANILLA});
+        iceCreamSalon1.orderIceRocket();
+
+        double test = iceCreamSalon1.getProfit();
+
+        assertEquals(0.0, test);
+    }
+
+    @DisplayName(value = "Return NotNull if price != 0 end order methods works")
+    @Test
+    void shouldReturnNotNullIfPriceIsNotZeroEndOrderMethodsWorks() {
+        IceCreamSalon iceCreamSalon1 = new IceCreamSalon
+                (new PriceList(4,5,6));
+
+        iceCreamSalon1.orderMagnum(Magnum.MagnumType.WHITECHOCOLATE);
+        iceCreamSalon1.orderCone(new Cone.Flavor[]{Cone.Flavor.BANANA, Cone.Flavor.VANILLA});
+        iceCreamSalon1.orderIceRocket();
+
+        Double test = iceCreamSalon1.getProfit();
+
+        assertNotNull(test);
+    }
 }
