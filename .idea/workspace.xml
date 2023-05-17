@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="150bb42f-a65f-4dd5-915c-1fe91937364b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sellers/IceCreamSalon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sellers/IceCreamSalon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sellers/IceCreamCarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sellers/IceCreamCarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/eatables/MagnumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/eatables/MagnumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,7 @@
       <recent name="eatables" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IceCreamCarTest">
+  <component name="RunManager" selected="JUnit.StockTest">
     <configuration name="IceCreamCarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IceCreamShopOpdracht" />
       <extension name="coverage">
@@ -78,7 +77,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IceCreamCarTest.shouldReturnEqualsIfAmountOfConesIsCorrectAfterOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IceCreamSalonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IceCreamShopOpdracht" />
       <extension name="coverage">
         <pattern>
@@ -87,30 +86,28 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sellers" />
-      <option name="MAIN_CLASS_NAME" value="sellers.IceCreamCarTest" />
-      <option name="METHOD_NAME" value="shouldReturnEqualsIfAmountOfConesIsCorrectAfterOrder" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="sellers.IceCreamSalonTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IceCreamCarTest.shouldReturnEqualsIfTheProfitIsCorrectAfterOrders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MagnumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IceCreamShopOpdracht" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sellers.*" />
+          <option name="PATTERN" value="eatables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="sellers" />
-      <option name="MAIN_CLASS_NAME" value="sellers.IceCreamCarTest" />
-      <option name="METHOD_NAME" value="shouldReturnEqualsIfTheProfitIsCorrectAfterOrders" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="eatables" />
+      <option name="MAIN_CLASS_NAME" value="eatables.MagnumTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IceCreamCarTest.testProfit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PriceListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IceCreamShopOpdracht" />
       <extension name="coverage">
         <pattern>
@@ -119,9 +116,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sellers" />
-      <option name="MAIN_CLASS_NAME" value="sellers.IceCreamCarTest" />
-      <option name="METHOD_NAME" value="testProfit" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="sellers.PriceListTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.IceCreamCarTest" />
-        <item itemvalue="JUnit.IceCreamCarTest.shouldReturnEqualsIfTheProfitIsCorrectAfterOrders" />
-        <item itemvalue="JUnit.IceCreamCarTest.testProfit" />
-        <item itemvalue="JUnit.IceCreamCarTest.shouldReturnEqualsIfAmountOfConesIsCorrectAfterOrder" />
         <item itemvalue="JUnit.StockTest" />
+        <item itemvalue="JUnit.PriceListTest" />
+        <item itemvalue="JUnit.IceCreamSalonTest" />
+        <item itemvalue="JUnit.IceCreamCarTest" />
+        <item itemvalue="JUnit.MagnumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -166,22 +162,22 @@
     <SUITE FILE_PATH="coverage/IceCreamShopOpdracht$IceCreamSalonTest_shouldReturnEqualsIfOrderMagnumWorksWithGetProfit.ic" NAME="IceCreamSalonTest.shouldReturnEqualsIfOrderMagnumWorksWithGetProfit Coverage Results" MODIFIED="1684242801470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>sellers.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/IceCreamShopOpdracht$IceCreamCarTest.ic" NAME="IceCreamCarTest Coverage Results" MODIFIED="1684311138694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/IceCreamShopOpdracht$IceCreamCarTest.ic" NAME="IceCreamCarTest Coverage Results" MODIFIED="1684313320323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>sellers.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/IceCreamShopOpdracht$PriceListTest.ic" NAME="PriceListTest Coverage Results" MODIFIED="1684306358133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/IceCreamShopOpdracht$PriceListTest.ic" NAME="PriceListTest Coverage Results" MODIFIED="1684313345072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>sellers.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/IceCreamShopOpdracht$StockTest.ic" NAME="StockTest Coverage Results" MODIFIED="1684309629722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/IceCreamShopOpdracht$StockTest.ic" NAME="StockTest Coverage Results" MODIFIED="1684313364534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>sellers.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/IceCreamShopOpdracht$IceCreamSalonTest.ic" NAME="IceCreamSalonTest Coverage Results" MODIFIED="1684306338911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/IceCreamShopOpdracht$IceCreamSalonTest.ic" NAME="IceCreamSalonTest Coverage Results" MODIFIED="1684313333724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>sellers.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/IceCreamShopOpdracht$EatableTest.ic" NAME="EatableTest Coverage Results" MODIFIED="1684306272706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/IceCreamShopOpdracht$EatableTest.ic" NAME="EatableTest Coverage Results" MODIFIED="1684313272233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>eatables.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/IceCreamShopOpdracht$MagnumTest.ic" NAME="MagnumTest Coverage Results" MODIFIED="1684306314516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/IceCreamShopOpdracht$MagnumTest.ic" NAME="MagnumTest Coverage Results" MODIFIED="1684313307954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>eatables.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/IceCreamShopOpdracht$IceCreamSalonTest_shouldReturnEqualsIfMethodToStringIsCorrect.ic" NAME="IceCreamSalonTest.shouldReturnEqualsIfMethodToStringIsCorrect Coverage Results" MODIFIED="1684243431182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -190,10 +186,10 @@
     <SUITE FILE_PATH="coverage/IceCreamShopOpdracht$MagnumTest_printResultIfMethodEatWorksCorrect.ic" NAME="MagnumTest.printResultIfMethodEatWorksCorrect Coverage Results" MODIFIED="1684233700596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>eatables.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/IceCreamShopOpdracht$IceRocketTest.ic" NAME="IceRocketTest Coverage Results" MODIFIED="1684306292752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/IceCreamShopOpdracht$IceRocketTest.ic" NAME="IceRocketTest Coverage Results" MODIFIED="1684313293092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>eatables.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/IceCreamShopOpdracht$ConeTest.ic" NAME="ConeTest Coverage Results" MODIFIED="1684306212102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/IceCreamShopOpdracht$ConeTest.ic" NAME="ConeTest Coverage Results" MODIFIED="1684313254798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>eatables.*</FILTER>
     </SUITE>
   </component>

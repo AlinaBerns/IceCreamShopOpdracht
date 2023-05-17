@@ -37,4 +37,11 @@ class MagnumTest {
         magnumType = new Magnum(Magnum.MagnumType.ROMANTICSTRAWBERRIES);
         assertNotNull(magnumType, "Constructor is null");
     }
+
+    @DisplayName(value = "MagnumType (setter) is Correct")
+    @Test
+    void shouldReturnEqualsIfSetterMagnumIsCorrect() {
+        magnum = new Magnum(Magnum.MagnumType.BLACKCHOCOLATE);
+        assertEquals(Magnum.MagnumType.BLACKCHOCOLATE, magnum.getType());
+    }
 }
