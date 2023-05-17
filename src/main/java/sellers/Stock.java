@@ -1,5 +1,7 @@
 package sellers;
 
+import java.util.Objects;
+
 public class Stock {
 
     private int iceRockets;
@@ -44,5 +46,18 @@ public class Stock {
 
     public void setMagni(int magni) {
         this.magni = magni;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Stock stock = (Stock) o;
+        return iceRockets == stock.iceRockets && cones == stock.cones && balls == stock.balls && magni == stock.magni;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(iceRockets, cones, balls, magni);
     }
 }

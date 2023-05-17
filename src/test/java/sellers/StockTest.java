@@ -4,6 +4,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import java.util.Objects;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class StockTest {
@@ -63,5 +65,15 @@ class StockTest {
     void shouldReturnNotNullIfConstructorIsNotNull () {
         Stock stock1 = new Stock(5,5,5,5);
         assertNotNull(stock1);
+    }
+
+    @DisplayName(value = "Hash Test")
+    @Test
+    void shouldReturnEqualsIfHashCodeWorks(){
+        Stock stock1 = new Stock(1,1,1,1);
+        Stock stock2 = new Stock(1,1,1,1);
+
+        assertNotSame(stock1, stock2);
+        assertEquals(stock1.hashCode(), stock2.hashCode());
     }
 }

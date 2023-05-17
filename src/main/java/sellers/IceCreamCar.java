@@ -86,7 +86,6 @@ public class IceCreamCar implements IceCreamSeller {
 
             return null;
 
-
         } else {
             stock.setMagni(stock.getMagni() - 1);
         }
@@ -98,4 +97,5 @@ public class IceCreamCar implements IceCreamSeller {
     public double getProfit() {
         return profit;
     }
+
 }

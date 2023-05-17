@@ -1,5 +1,7 @@
 package eatables;
 
+import java.util.Objects;
+
 public class Magnum implements Eatable {
 
     private MagnumType type;
