@@ -3,16 +3,20 @@ package eatables;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.EnumSource;
 
+import java.util.*;
+
+import static eatables.Magnum.MagnumType.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MagnumTest {
-    private Magnum magnum;
     private Magnum magnumType;
 
     @BeforeEach
     void setMagnum (){
-        magnumType = new Magnum(Magnum.MagnumType.BLACKCHOCOLATE);
+        magnumType = new Magnum(BLACKCHOCOLATE);
     }
 
     @DisplayName(value = "Magnum was created")
@@ -31,17 +35,17 @@ class MagnumTest {
         magnumType.eat();
     }
 
-    @DisplayName(value = "Constructor is not null")
-    @Test
-    void shouldReturnNotNullIfConstructorIsNotNull() {
-        magnumType = new Magnum(Magnum.MagnumType.ROMANTICSTRAWBERRIES);
+    @DisplayName(value = "Constructor != null")
+    @ParameterizedTest
+    @EnumSource(Magnum.MagnumType.class)
+    void shouldReturnNotNullIfConstructorIsNotNull(Magnum.MagnumType magnumType) {
         assertNotNull(magnumType, "Constructor is null");
     }
 
-    @DisplayName(value = "MagnumType (setter) is Correct")
+    @DisplayName(value = "MagnumType (setter and getter) is Correct")
     @Test
     void shouldReturnEqualsIfSetterMagnumIsCorrect() {
-        magnum = new Magnum(Magnum.MagnumType.BLACKCHOCOLATE);
-        assertEquals(Magnum.MagnumType.BLACKCHOCOLATE, magnum.getType());
+        Magnum magnum1 = new Magnum(BLACKCHOCOLATE);
+        assertEquals(magnum1.getType(), magnumType.getType());
     }
 }

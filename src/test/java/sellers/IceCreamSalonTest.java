@@ -6,6 +6,8 @@ import eatables.Magnum;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.EnumSource;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -66,14 +68,14 @@ class IceCreamSalonTest {
         assertEquals(actual, example);
     }
 
-    @DisplayName(value = "Return Equals if Profit = 0, when price = 0")
-    @Test
-    void shouldReturnEqualIfProfitIsZeroWhenPriceIsZero() {
+    @DisplayName(value = "Order Magnum + IceRocket")
+    @ParameterizedTest
+    @EnumSource(Magnum.MagnumType.class)
+    void shouldReturnEqualIfProfitIsZeroWhenPriceIsZeroTestWithMagnumAndIceRocket(Magnum.MagnumType magnumType) {
         IceCreamSalon iceCreamSalon1 = new IceCreamSalon
                 (new PriceList(0,0,0));
 
-        iceCreamSalon1.orderMagnum(Magnum.MagnumType.WHITECHOCOLATE);
-        iceCreamSalon1.orderCone(new Cone.Flavor[]{Cone.Flavor.BANANA, Cone.Flavor.VANILLA});
+        iceCreamSalon1.orderMagnum(magnumType);
         iceCreamSalon1.orderIceRocket();
 
         double test = iceCreamSalon1.getProfit();
@@ -81,9 +83,24 @@ class IceCreamSalonTest {
         assertEquals(0.0, test);
     }
 
-    @DisplayName(value = "Return NotNull if price != 0 end order methods works")
+    @DisplayName(value = "Order Cone + IceRocket")
+    @ParameterizedTest
+    @EnumSource(Cone.Flavor.class)
+    void shouldReturnEqualIfProfitIsZeroWhenPriceIsZeroTestWithConeAndIceRocket(Cone.Flavor flavor) {
+        IceCreamSalon iceCreamSalon1 = new IceCreamSalon
+                (new PriceList(0,0,0));
+
+        iceCreamSalon1.orderCone(new Cone.Flavor[]{flavor});
+        iceCreamSalon1.orderIceRocket();
+
+        double test = iceCreamSalon1.getProfit();
+
+        assertEquals(0.0, test);
+    }
+
+    @DisplayName(value = "Return NotNull if price != 0 and order methods works")
     @Test
-    void shouldReturnNotNullIfPriceIsNotZeroEndOrderMethodsWorks() {
+    void shouldReturnNotNullIfPriceIsNotZeroAndOrderMethodsWorks() {
         IceCreamSalon iceCreamSalon1 = new IceCreamSalon
                 (new PriceList(4,5,6));
 
