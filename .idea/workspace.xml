@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="150bb42f-a65f-4dd5-915c-1fe91937364b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/IceCreamApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/IceCreamApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/eatables/ConeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/eatables/ConeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/eatables/MagnumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/eatables/MagnumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sellers/IceCreamCarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sellers/IceCreamCarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sellers/IceCreamSalonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sellers/IceCreamSalonTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,33 +63,47 @@
       <recent name="eatables" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StockTest">
-    <configuration name="IceCreamCarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ConeTest">
+    <configuration name="IceCreamApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.IceCreamApp" />
       <module name="IceCreamShopOpdracht" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sellers.*" />
+          <option name="PATTERN" value="application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="sellers" />
-      <option name="MAIN_CLASS_NAME" value="sellers.IceCreamCarTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IceCreamShopOpdracht" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eatables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="eatables" />
+      <option name="MAIN_CLASS_NAME" value="eatables.ConeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IceCreamSalonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConeTest.eatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IceCreamShopOpdracht" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sellers.*" />
+          <option name="PATTERN" value="eatables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="sellers" />
-      <option name="MAIN_CLASS_NAME" value="sellers.IceCreamSalonTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="eatables" />
+      <option name="MAIN_CLASS_NAME" value="eatables.ConeTest" />
+      <option name="METHOD_NAME" value="eatTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,43 +123,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriceListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MagnumTest.test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IceCreamShopOpdracht" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sellers.*" />
+          <option name="PATTERN" value="eatables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="sellers" />
-      <option name="MAIN_CLASS_NAME" value="sellers.PriceListTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IceCreamShopOpdracht" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sellers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sellers" />
-      <option name="MAIN_CLASS_NAME" value="sellers.StockTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="eatables" />
+      <option name="MAIN_CLASS_NAME" value="eatables.MagnumTest" />
+      <option name="METHOD_NAME" value="test(eatables.Magnum$MagnumType)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StockTest" />
-        <item itemvalue="JUnit.PriceListTest" />
-        <item itemvalue="JUnit.IceCreamSalonTest" />
-        <item itemvalue="JUnit.IceCreamCarTest" />
+        <item itemvalue="JUnit.ConeTest" />
+        <item itemvalue="JUnit.ConeTest.eatTest" />
+        <item itemvalue="Application.IceCreamApp" />
         <item itemvalue="JUnit.MagnumTest" />
+        <item itemvalue="JUnit.MagnumTest.test (2)" />
       </list>
     </recent_temporary>
   </component>
