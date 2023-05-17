@@ -55,6 +55,4 @@ public class IceCreamSalon implements IceCreamSeller{
                 ", totalProfit=" + this.totalProfit +
                 '}';
     }
-
-
 }

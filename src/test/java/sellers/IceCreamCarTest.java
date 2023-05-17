@@ -88,4 +88,17 @@ class IceCreamCarTest {
         double startProfit = iceCreamCar.getProfit();
         assertEquals(0.0, startProfit);
     }
+    @DisplayName(value = "The profit is correct after orders")
+    @Test
+    void shouldReturnEqualsIfTheProfitIsCorrectAfterOrders() {
+        double startProfit = iceCreamCar.getProfit();
+        assertEquals(0.0, startProfit);
+
+        iceCreamCar.orderMagnum(Magnum.MagnumType.WHITECHOCOLATE);
+        iceCreamCar.orderIceRocket();
+        iceCreamCar.orderCone(new Cone.Flavor[]{Cone.Flavor.PISTACHE});
+
+        double actualProfit = 2.0700000000000003;
+        assertEquals(actualProfit, iceCreamCar.getProfit());
+    }
 }
